@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	font-family: Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+h3 {
+	text-align: center;
+}
+
+hr{
+	width:100%;
+	display: block;
+	margin: 5px auto;
+}
+.clearfix:after {
+	content: '';
+	clear: both;
+	display:block;
+}
+
+.wrapper1, .wrapper2, .wrapper3 {
+	margin: auto;
+	width: 300px;
+	height:350px;
+	position: relative;
+}
+
+.box1, .box2, .box3,.box4, .box5, .box6, .box7, .box8, .box9, .box {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+
+.box1, .box2, .box3, .box7, .box8, .box9, .box {
+	float: left;
+}
+.box4, .box5, .box6 {
+	float: right;
+}
+
+.box1, .box4, .box7 {
+	background-color: blue;
+}
+.box8, .box2, .box5 {
+	background-color: red;
+}
+
+.box3, .box6, .box9 {
+	background-color: yellow;
+}
+
+.box2 {
+	top: 100px;
+}
+.box3 {
+	top: 200px;
+}
+
+.box5 {
+	top: 100px;
+}
+
+.box6 {
+	top: 200px;
+}
+.wrapper4 {
+	margin: auto;
+	padding-bottom: 10px;
+	width: 430px;
+	height:530px;
+	position: relative;
+}
+
+.box {
+	background-color: purple;
+	border: 1px solid black;
+	text-align: center;
+	color: black;
+}
+
