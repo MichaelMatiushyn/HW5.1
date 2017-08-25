@@ -1,0 +1,33 @@
+body {
+	margin: o;
+	padding: 0;
+	outline: 0;
+	border:0;
+}
+
+.wrapper, .wrapper2 {
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid;
+}
+
+ .wrapper img {
+ 	float: left;
+ 	margin: 10px;
+ }
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.wrapper2 img {
+	float: right;
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+}

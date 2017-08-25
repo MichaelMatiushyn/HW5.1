@@ -24,14 +24,13 @@ hr{
 .wrapper1, .wrapper2, .wrapper3 {
 	margin: auto;
 	width: 300px;
-	height:350px;
-	position: relative;
+	height:500px;
+	
 }
 
 .box1, .box2, .box3,.box4, .box5, .box6, .box7, .box8, .box9, .box {
 	width: 100px;
 	height: 100px;
-	position: relative;
 }
 
 .box1, .box2, .box3, .box7, .box8, .box9, .box {
@@ -53,25 +52,25 @@ hr{
 }
 
 .box2 {
-	top: 100px;
+	margin-top: 100px;
 }
 .box3 {
-	top: 200px;
+	margin-left: 200px;
 }
 
 .box5 {
-	top: 100px;
+	margin-top: 100px;
 }
 
 .box6 {
-	top: 200px;
+	margin-top: 200px;
 }
 .wrapper4 {
 	margin: auto;
 	padding-bottom: 10px;
 	width: 430px;
 	height:530px;
-	position: relative;
+	
 }
 
 .box {
